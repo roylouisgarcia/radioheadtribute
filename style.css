@@ -112,20 +112,24 @@ a:visited {
 	.memberpic{
 		float: unset;
 	} 
-	
 
-}
-
-
-@media (max-width: 400px) {
-	.grid {
-		font-size: 17px;
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-column-gap: 20px;
-		grid-row-gap: 20px;
+	.item1, .item2, .item3, .item4, .item5{
+		font-size: smaller;
 	}
+
+	#tribute-link{
+		font-size: smaller;
+	} 
+
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
 }
+
+
+
 
 
 img {
