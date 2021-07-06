@@ -249,3 +249,7 @@ blockquote {
 ul{
 	padding-left: 0px;
 }
+
+#tribute-link{
+	color:chartreuse;
+}
