@@ -206,6 +206,7 @@ blockquote {
 .memberbox p{
 	background-color: gainsboro;
 	min-height: 150px;
+	padding: 10px;
 }
 .memberpic{
 	background-image: url("images/polaroid.png");
@@ -232,4 +233,19 @@ blockquote {
 	margin: 5px 0 5px 0;
 	color: black;
 	font-size: 11px;
+}
+
+
+.item1, .item2, .item3, .item4, .item5{
+	list-style: none;
+	line-height: 10px;;
+}
+
+.left-justified {
+	justify-content: flex-start;
+	text-align: left;
+}
+
+ul{
+	padding-left: 0px;
 }
